@@ -1,0 +1,11 @@
+api\utilities\DataProviderUtility.class
+api\endpoints\UserEndPointsWithPropertiesFile.class
+api\test\UserTests.class
+api\utilities\ExtentReportManager.class
+api\test\DataDrivenTests.class
+api\endpoints\UserEndPoints.class
+api\payload\User.class
+api\endpoints\Routes.class
+api\utilities\GetPropertiesFileEndPoints.class
+api\test\UserTestsUsingPropertiesFileEndpoints.class
+api\utilities\XLSUtility.class

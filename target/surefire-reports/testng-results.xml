@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T15:32:29 EDT" name="PetSuite" finished-at="2023-08-01T15:32:34 EDT" duration-ms="4946">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T15:32:29 EDT" name="PetTests" finished-at="2023-08-01T15:32:34 EDT" duration-ms="4946">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:30 EDT" name="beforeClass" finished-at="2023-08-01T15:32:30 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:30 EDT" name="setup" finished-at="2023-08-01T15:32:30 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addUser()[pri:1, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:30 EDT" name="addUser" finished-at="2023-08-01T15:32:33 EDT" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="getUser()[pri:2, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:33 EDT" name="getUser" finished-at="2023-08-01T15:32:34 EDT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:33 EDT" name="setup" finished-at="2023-08-01T15:32:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:34 EDT" name="setup" finished-at="2023-08-01T15:32:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUser()[pri:3, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:34 EDT" name="updateUser" finished-at="2023-08-01T15:32:34 EDT" depends-on-methods="api.test.UserTests.addUser" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:34 EDT" name="setup" finished-at="2023-08-01T15:32:34 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUser()[pri:4, instance:api.test.UserTests@1710f1a]" started-at="2023-08-01T15:32:34 EDT" name="deleteUser" finished-at="2023-08-01T15:32:34 EDT" depends-on-methods="api.test.UserTests.updateUser" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- PetTests -->
+  </suite> <!-- PetSuite -->
+</testng-results>
