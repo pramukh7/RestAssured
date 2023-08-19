@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Jai Swaminarayan'
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                 echo 'Jai Swaminarayan'
+                 echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                 echo 'Jai Swaminarayan'
+                 echo 'Deploying....'
+            }
+        }
+    }
+}
